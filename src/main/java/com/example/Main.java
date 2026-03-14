@@ -5,8 +5,8 @@ public class Main {
         Usuario usuario1 = new Usuario();
         Usuario usuario2 = new Usuario();
 
-        usuario1.nombre = "Juan";
-        usuario1.apellido = "Valez";
+        usuario1.nombre = "Carlos";
+        usuario1.apellido = "Ortiz";
         usuario1.edad = 25;
         usuario1.email = "mari@gmail.com";
 
@@ -18,13 +18,11 @@ public class Main {
         System.out.println("....................");
         usuario1.saludar();
         usuario1.mostrarinformación();
-        System.out.println(x: "..................................................................");
+        System.out.println(".................."); 
         usuario2.saludar();
         usuario2.mostrarinformación();
         
- 
-
         System.out.println("Hello world!");}
-}
 
 public static void saludar(String nombre){}
+    }
